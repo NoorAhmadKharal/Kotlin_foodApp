@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text=" Back "
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/Userername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/inputcolor"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="User Name"
+            android:textColorHint="@color/white"
+            android:inputType="textPersonName"
+            android:padding="1dp"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/UserPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Userername"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/inputcolor"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="+92306-4276350"
+            android:textColorHint="@color/white"
+            android:inputType="phone"
+            android:padding="1dp"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/Useremailaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/UserPhone"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/inputcolor"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="xyz@gmail.com"
+            android:textColorHint="@color/white"
+            android:inputType="textEmailAddress"
+            android:padding="1dp"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/Userpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Useremailaddress"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/inputcolor"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="password"
+            android:textColorHint="@color/white"
+            android:inputType="textPassword"
+            android:padding="1dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Userpassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

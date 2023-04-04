@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/fooflogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="8dp"
+        app:srcCompat="@drawable/fooflogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fooflogo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:padding="8dp"
+        android:text="Online Food"
+        android:textColor="#FBF9F9"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:background="@drawable/inputcolor"
+        android:hint="@string/_92306_4276350"
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:inputType="phone"
+        android:padding="15dp"
+        android:textSize="25dp"
+        android:layout_below="@id/textView1"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:background="@drawable/inputcolor"
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="25dp"
+        android:layout_below="@id/editTextPhone2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:background="@drawable/inputcolor"
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/sign_in"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/editTextTextPassword3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        />
+
+</RelativeLayout>

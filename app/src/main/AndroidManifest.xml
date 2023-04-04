@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Foodapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".pay10"
+            android:exported="false" />
+        <activity
+            android:name=".pay9"
+            android:exported="false" />
+        <activity
+            android:name=".pay8"
+            android:exported="false" />
+        <activity
+            android:name=".pay7"
+            android:exported="false" />
+        <activity
+            android:name=".pay6"
+            android:exported="false" />
+        <activity
+            android:name=".pay5"
+            android:exported="false" />
+        <activity
+            android:name=".pay4"
+            android:exported="false" />
+        <activity
+            android:name=".pay3"
+            android:exported="false" />
+        <activity
+            android:name=".pay2"
+            android:exported="false" />
+        <activity
+            android:name=".pay1"
+            android:exported="false" />
+        <activity
+            android:name=".Possition10"
+            android:exported="false" />
+        <activity
+            android:name=".Possition9"
+            android:exported="false" />
+        <activity
+            android:name=".Possition8"
+            android:exported="false" />
+        <activity
+            android:name=".Possition7"
+            android:exported="false" />
+        <activity
+            android:name=".Possition6"
+            android:exported="false" />
+        <activity
+            android:name=".Possition5"
+            android:exported="false" />
+        <activity
+            android:name=".Possition4"
+            android:exported="false" />
+        <activity
+            android:name=".Possition3"
+            android:exported="false" />
+        <activity
+            android:name=".Possition2"
+            android:exported="false" />
+        <activity
+            android:name=".possition1"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".ShowDataResult"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Before_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

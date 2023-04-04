@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">foodapp</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="skip">Skip</string>
+    <string name="show_data">Show Data</string>
+    <string name="_92306_4276350">+92306-4276350</string>
+    <string name="password">password</string>
+    <string name="sign_in">Sign_in</string>
+</resources>
